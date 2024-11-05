@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Vendas de Veículos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+    <header>
+        <h1>Relatório de Vendas de Veículos</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Modelos</a>
+            <a href="#">Estatísticas de Vendas</a>
+        </nav>
+    </header>
+    <main class="graficos-section">
+        <section id="graficos-container" class="graficos-container">
+            <p class="graficos-container_texto">
+                Este gráfico mostra as vendas de diferentes tipos de veículos: <strong class="spant">Carros</strong>, <strong class="spant">Motocicletas</strong>, <strong class="spant">Caminhões</strong> e <strong class="spant">Ônibus</strong>.
+            </p>
+        </section>
+    </main>
+    <div class="container8">
+        <h1 style="color: #808080;">Gráfico de Vendas de Veículos</h1>
+        <div class="content">
+            <canvas id="myChart" width="800" height="400"></canvas>
+        </div>
+    </div>
+    <footer>
+        <p>Desenvolvido por Nicolas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
